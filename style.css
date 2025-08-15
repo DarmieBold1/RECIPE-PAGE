@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: hsl(30, 54%, 90%);
+height: 100%;
+width: 100;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Outfit", sans-serif;
+}
+
+main{
+width:50%;
+background-color: hsl(0, 0%, 100%);
+border-radius: 2rem;
+padding: 2.1rem 2.5rem;
+margin: 4.5rem 0;
+}
+
+img{
+width: 100%;
+border-radius: 0.75rem;
+}
+
+h1, h2{
+    font-family: Young serif sans-serif;
+    font-weight: 600;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+}
+
+ p .mb{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+hr{
+    color: hsl(30, 18%, 87%);
+}
+
+.preparation{
+background-color: hsl(330, 100%, 98%);
+padding:1.315rem 2.5rem;
+}
+
+ul li{
+    padding: 0.4rem;
+    list-style-type: disc;
+}
+
+span{
+font-weight: 600;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+ol li{
+    padding: 0.4rem;
+    line-height: normal;
+}
+
+td{
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+
+
+.nutrition-name{
+    padding-right: 15rem;
+}
+
+.nutrition-value{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    padding: 1.25rem 1.25rem;
+}
+td {
+    border-bottom: 0.1px solid hsl(30, 10%, 34%);
+    height:3rem;
+    width: 18rem;
+}
